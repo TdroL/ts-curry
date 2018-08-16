@@ -1,5 +1,5 @@
 # ts-curry
-Expecrimental TypeScript currying
+Experimental TypeScript currying
 
 ```ts
 function test(a: number, b: string, c: number[]): boolean {
