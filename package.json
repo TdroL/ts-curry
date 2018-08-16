@@ -1,0 +1,30 @@
+{
+  "name": "ts-curry",
+  "version": "1.0.0",
+  "description": "Expecrimental TypeScript currying",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register test/**/*.spec.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TdroL/ts-curry.git"
+  },
+  "keywords": [],
+  "author": "TdroL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TdroL/ts-curry/issues"
+  },
+  "homepage": "https://github.com/TdroL/ts-curry#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.1"
+  }
+}
